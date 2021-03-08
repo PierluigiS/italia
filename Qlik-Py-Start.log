@@ -1,0 +1,11 @@
+(qlik-py-env) (base) C:\Users\FI205337\Documents\Qlik\qlik-py-tools-master>Qlik-Py-Start.bat > plog.txt
+__main__.py:330: DeprecationWarning: invalid escape sequence \l
+  """
+__main__.py:416: DeprecationWarning: invalid escape sequence \l
+  """
+Traceback (most recent call last):
+  File "__main__.py", line 30, in <module>
+    from _prophet import ProphetForQlik
+  File "C:\Users\FI205337\Documents\Qlik\qlik-py-tools-master\qlik-py-env\core\_prophet.py", line 16, in <module>
+    from fbprophet import Prophet, plot
+ModuleNotFoundError: No module named 'fbprophet'
